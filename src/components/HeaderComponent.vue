@@ -1,6 +1,7 @@
 <template>
     <div>
         <h1>Pippo</h1>
+        <img src="/img/la-molisana-logo.png" alt="Logo la Molisana">
     </div>
 </template>
 

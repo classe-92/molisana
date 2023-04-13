@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <h1>Ciao</h1>
-    <img src="/img/la-molisana-logo.png" alt="Logo la Molisana">
+
     <HeaderComponent />
   </div>
 </template>
