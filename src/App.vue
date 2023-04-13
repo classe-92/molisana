@@ -1,24 +1,22 @@
 <template>
-  <div class="container">
-    <h1>Ciao</h1>
-
-    <HeaderComponent />
-  </div>
+  <HeaderComponent />
+  <MainComponent />
+  <FooterComponent />
 </template>
 
 <script>
 import HeaderComponent from './components/HeaderComponent.vue';
+import MainComponent from './components/MainComponent.vue';
+import FooterComponent from './components/FooterComponent.vue';
 export default {
   name: 'App',
   components: {
-    HeaderComponent
+    HeaderComponent,
+    MainComponent,
+    FooterComponent
   }
 
 }
 </script>
 
-<style lang="scss" scoped>
-h1 {
-  color: green
-}
-</style>
+<style lang="scss" scoped></style>

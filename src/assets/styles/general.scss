@@ -1,19 +1,18 @@
+@use './partials/variables' as *;
+@use './partials/utilities' as *;
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 
+$fa-font-path: './webfonts';
+@import '@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '@fortawesome/fontawesome-free/scss/solid.scss';
+
+@import 'bootstrap/scss/bootstrap';
 
 
-
-* {
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
-}
 body{
     font-family: 'Roboto','sans-serif';
-}
-.container{
-    max-width: 1200px;
-    margin:0 auto;
-    padding: 1rem;
-}
+} 
+
+
