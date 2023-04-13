@@ -141,7 +141,7 @@ const menu = [
                 url: "#",
             },
             {
-                text: "SLe Gluten-free",
+                text: "Le Gluten-free",
                 url: "#",
             }
         ]
