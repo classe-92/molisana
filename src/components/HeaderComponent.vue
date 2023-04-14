@@ -20,6 +20,12 @@ export default {
         return {
             navbar: links
         }
+    },
+    created() {
+
+    },
+    mounted() {
+
     }
 }
 </script>
